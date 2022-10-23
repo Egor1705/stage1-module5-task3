@@ -10,7 +10,6 @@ public class CollectionService {
 
     public List<Integer> filterEvenNumbers(List<Integer> list) {
         return list.stream().filter(n->n%2==0).collect(Collectors.toList());
-      //  throw new UnsupportedOperationException("You should implement this method.");
     }
 
     public List<String> toUpperCaseCollection(List<String> list) {
